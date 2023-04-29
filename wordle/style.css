@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-container {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.submit-btn {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #4cae4c;
+}
+
+input.green {
+  background-color: green;
+  color: white;
+}
+
+input.yellow {
+  background-color: yellow;
+}
+
+input.gray {
+  background-color: gray;
+  color: white;
+}

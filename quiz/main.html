@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>영어 단어장</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="container">
+	<h1>영어 단어장</h1>
+   
+	<table>
+		<tr>
+			<th>단어</th>
+			<th>뜻</th>
+		</tr>
+		<script type="text/javascript" src="words.js"></script>
+		<script type="text/javascript">
+			for (var i = 0; i < words.length; i++) {
+				document.write("<tr><td class='word'>" + words[i].word + "</td><td class='meaning'>" + words[i].meaning + "</td></tr>");
+			}
+		</script>
+	</table>
+    <p>영어를 다 외운 후 퀴즈 시작하기 버튼을 눌러주세요.</p>
+	<a class="quiz" href="quiz.html">퀴즈 시작하기</a>
+</body>
+</html>
+
+

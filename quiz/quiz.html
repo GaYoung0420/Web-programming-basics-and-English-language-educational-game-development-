@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>영어 퀴즈</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="container">
+	<h1>영어 퀴즈</h1>
+	<p>다음 영어 단어의 뜻은 무엇인가요?</p>
+	<div>
+		<h2 id="word"></h2>
+		<form>
+			<label for="answer">뜻: </label>
+			<input type="text" id="answer" name="answer">
+            <br>
+			<button type="button" onclick="checkAnswer()">정답확인하기</button>
+			<p id="result"></p>
+		</form>
+	</div>
+	<script type="text/javascript" src="words.js"></script>
+	<script type="text/javascript" src="quiz.js"></script>
+</body>
+</html>
