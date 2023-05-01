@@ -46,3 +46,7 @@ input.gray {
   background-color: gray;
   color: white;
 }
+
+.textbox {
+  margin-bottom: 10px;
+}
