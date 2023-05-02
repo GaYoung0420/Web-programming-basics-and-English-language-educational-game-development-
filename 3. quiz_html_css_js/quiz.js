@@ -38,7 +38,7 @@ function checkAnswer() {
     // 마지막 문제인 경우
     var score = Math.round((correctCount / words.length) * 100); // 점수를 계산함
     alert("퀴즈가 끝났습니다. 당신의 점수는 " + score + "점입니다."); // 알림 메시지를 표시함
-    window.location.href = "main.html"; // 메인 페이지로 이동함
+    window.location.href = "index.html"; // 메인 페이지로 이동함
   } else {
     // 마지막 문제가 아닌 경우
     displayWord(); // 다음 문제를 표시함
